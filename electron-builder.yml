@@ -1,0 +1,12 @@
+appId: com.example.smartranslation
+productName: SmartTranslation
+directories:
+  output: dist
+files:
+  - dist/**
+  - node_modules/**
+  - package.json
+dmg:
+  icon: path/to/icon.icns
+win:
+  icon: path/to/icon.ico

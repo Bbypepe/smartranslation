@@ -1,0 +1,15 @@
+stream-recorder-app/
+├── node_modules/          # Installed npm packages
+├── src/                   # Source code
+│   ├── components/        # UI components
+│   ├── services/          # Backend services (streaming, conversion)
+│   ├── assets/            # Static files like images, fonts
+│   ├── App.js             # Main React component
+│   ├── index.js           # Entry point for React
+│   ├── main.js            # Electron main process
+│   ├── config/            # Configurations like VPN and API keys
+│   ├── styles.css         # Styling
+├── public/                # Static files served directly
+├── package.json           # Project metadata and dependencies
+├── .env                   # Environment variables
+└── electron-builder.yml    # Configuration for building the desktop app

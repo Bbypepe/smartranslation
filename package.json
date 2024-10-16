@@ -1,0 +1,26 @@
+{
+  "name": "smart-translation-app",
+  "version": "1.0.0",
+  "description": "Smart translation app for live streaming and communication.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "dotenv": "^8.2.0",
+    "node-openvpn": "^2.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "electron": "^13.1.7",
+    "electron-builder": "^22.11.7",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "babel-loader": "^8.2.2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "smartranslation",
+  "version": "1.0.0",
+  "description": "Smart translation application",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8",
+    "node-openvpn": "^0.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "author": "bbepepe",
+  "license": "MIT"
+}
